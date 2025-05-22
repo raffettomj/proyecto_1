@@ -79,7 +79,7 @@
             text-decoration: none;
         }
 
-    .series-favoritas {
+    .Series-favoritas {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -91,16 +91,16 @@
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
-    .series-favoritas img {
+    .Series-favoritas img {
         width: 200px;
         height: auto;
         border-radius: 8px;
         object-fit: cover;
     }
 
-    .comida-favoritos {
+    .comida-favoritas {
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         gap: 10px;
         background-color: rgba(255, 255, 255, 0.85);
         padding: 20px;
@@ -108,7 +108,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    .comida-favoritos img {
+    .comida-favoritas img {
         width: 200px;
         height: 200px;
         border-radius: 8px;
@@ -124,3 +124,4 @@
     * {
          font-family: 'Times New Roman', Times, serif;
         }
+ 
