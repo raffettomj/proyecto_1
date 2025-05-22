@@ -80,21 +80,48 @@
             text-decoration: none;
         }
 
-        article {
-            background-color: rgba(255, 255, 255);
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 5px rgba(8, 7, 7, 0.1);
-        }
+    .peliculas-favoritas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 20px;
+        margin: 30px 0;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
 
-        .peliculas-favoritas {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-    
-        * {
-            font-family: 'Times New Roman', Times, serif;
+    .peliculas-favoritas img {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .comida-favoritos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .comida-favoritos img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .karmaland {
+        display: block;
+        max-width: 400px;
+        margin: 20px auto;
+        border-radius: 8px;
+    }
+    * {
+         font-family: 'Times New Roman', Times, serif;
         }
