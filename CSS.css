@@ -44,7 +44,7 @@
         }
 
         a {
-            color: #d7860d;
+            color: #de8f19;
             text-decoration: none;
         }
 
@@ -85,7 +85,7 @@
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 30px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(8, 7, 7, 0.1);
         }
 
         .peliculas-favoritas {
