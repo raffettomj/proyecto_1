@@ -1,5 +1,5 @@
+
         body {
-            font-family: Arial, sans-serif;
             background-image: url(); 
             background-image: url(https://s1.elespanol.com/2020/10/09/curiosidades/espana-pueblos/espana-otono-naturaleza_526959081_162161962_1706x960.jpg); 
             background-size: cover; 
@@ -93,4 +93,8 @@
             flex-wrap: wrap;
             gap: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    
+        * {
+            font-family: 'Times New Roman', Times, serif;
         }
