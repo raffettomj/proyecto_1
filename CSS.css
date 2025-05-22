@@ -100,7 +100,8 @@
 
     .comida-favoritas {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
         background-color: rgba(255, 255, 255, 0.85);
         padding: 20px;
@@ -124,4 +125,3 @@
     * {
          font-family: 'Times New Roman', Times, serif;
         }
- 
